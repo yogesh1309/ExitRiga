@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:drawable="@drawable/white_solid_circle"
+        android:height="@dimen/dimen_30"
+        android:width="@dimen/dimen_30"
+        tools:targetApi="m">
+        <!--<shape android:shape="oval">
+            <solid android:color="@color/white"/>
+            <size
+                android:width="50dp"
+                android:height="50dp" />
+        </shape>-->
+    </item>
+    <item android:gravity="center"
+        android:drawable="@drawable/ic_heart_outline_blue"
+        android:height="@dimen/dimen_20"
+        android:width="@dimen/dimen_20"
+        >
+    </item>
+
+
+</layer-list>

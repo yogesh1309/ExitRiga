@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorWhite">
+    <RelativeLayout
+        android:id="@+id/layout_main1"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <com.cw.exitriga.Utils.RoundRectCornerImageView
+            android:id="@+id/img_bg1"
+            android:src="@drawable/img_catering"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#505A6060"
+            android:padding="15dp">
+            <TextView
+                android:id="@+id/txt_name1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Catering"
+                android:textSize="@dimen/text_12"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:fontFamily="@font/metropolis_semibold" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:id="@+id/layout_main2"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <com.cw.exitriga.Utils.RoundRectCornerImageView
+                    android:id="@+id/img_bg2"
+                    android:src="@drawable/img_culture_and_history"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/transparet"
+                    android:padding="15dp">
+                    <TextView
+                        android:id="@+id/txt_name2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Culture and history"
+                        android:textSize="@dimen/text_12"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/metropolis_semibold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <RelativeLayout
+                android:id="@+id/layout_main3"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="200dp">
+                <com.cw.exitriga.Utils.RoundRectCornerImageView
+                    android:id="@+id/img_bg3"
+                    android:src="@drawable/img_mice"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/transparet"
+                    android:padding="15dp">
+                    <TextView
+                        android:id="@+id/txt_name3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Mice"
+                        android:textSize="@dimen/text_12"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:fontFamily="@font/metropolis_semibold" />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

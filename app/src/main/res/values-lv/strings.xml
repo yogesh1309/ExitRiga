@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">EXIT RĪGA</string>
+    <string name="english">English</string>
+    <string name="latvian">Latvian</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="news">News</string>
+    <string name="categories">Categories</string>
+    <string name="saved">Saved</string>
+    <string name="events">Events</string>
+    <string name="more">More</string>
+    <string name="exit_riga">EXIT RĪGA</string>
+    <string name="details">Details</string>
+    <string name="get_direction">Get Direction</string>
+    <string name="shopping">Shopping</string>
+    <string name="measures">Measures</string>
+    <string name="month">Month</string>
+    <string name="year">Year</string>
+    <string name="i_am_intersted">I am intersted</string>
+    <string name="entry_fee">Entry Fee</string>
+    <string name="create_a_new_list">Create a New List</string>
+    <string name="your_list">Your List</string>
+    <string name="your_followed_list">Your Followed List</string>
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="cancel">Cancel</string>
+    <string name="new_itinerary">New Itinerary</string>
+    <string name="type_a_name_for_your_itinerary_here">Type a name for your itinerary here.</string>
+    <string name="routes">Routes</string>
+    <string name="no_internet">No internet connection.</string>
+
+    <string name="car_routes">Car Routes</string>
+    <string name="cycling_routes">Cycling Routes</string>
+    <string name="walking_routes">Walking Routes</string>
+    <string name="boat_routes">Boat Routes</string>
+    <string name="show_on_map">Show on map</string>
+    <string name="show_places">Show Places</string>
+    <string name="places">Places</string>
+    <string name="add_more_places">Add More Places</string>
+    <string name="save">Save</string>
+
+    <string name="mapbox_access_token">pk.eyJ1IjoieW9naTEyIiwiYSI6ImNrbzN1am1lbTE1emcydnA5ZHljMXcxNjUifQ.LjwV8NWXQc05GcHxwsQl0Q</string>
+    <string name="search">search</string>
+    <string name="Please_enter_name">Please enter name</string>
+    <string name="you_are_currently_not_added_your_list">You are currently not added your list.</string>
+    <string name="your_are_currently_not_following_any_list">Your are Currently not following any list.</string>
+    <string name="submit">Submit</string>
+    <string name="Please_select_any_one">Please select any one</string>
+</resources>

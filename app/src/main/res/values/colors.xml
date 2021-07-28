@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0085B3</color>
+    <color name="colorPrimaryDark">#0085B3</color>
+    <color name="colorAccent">#000000</color>
+    <color name="colorApp">#0085B3</color>
+    <color name="colorBlack">#0A0A0A</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#0081AE</color>
+    <color name="colorlanguagechanges">#FF6362</color>
+    <color name="colorrepost">#588D50</color>
+    <color name="colorabout">#BC5090</color>
+    <color name="colorcookie">#FFA602</color>
+    <color name="red">#E50505</color>
+    <color name="gray">#CFCFCF</color>
+    <color name="background">#dddddd</color>
+    <color name="transparet">#505A6060</color>
+
+</resources>

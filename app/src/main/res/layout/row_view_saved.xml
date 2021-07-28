@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/layout_main">
+
+    <RelativeLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+        <ImageView
+            android:id="@+id/img_bg"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_180"
+            android:src="@drawable/img_saved_demo"
+            android:scaleType="fitXY" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="50dp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#90FFFFFF"
+                android:padding="12dp">
+                <TextView
+                    android:id="@+id/txt_main"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="638 new case of covid-19 registered in latvia"
+                    android:textSize="@dimen/text_12"
+                    android:textColor="@color/colorBlack"
+                    android:fontFamily="@font/metropolis_semibold"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                ></LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/layout_fav"
+            android:layout_width="26dp"
+            android:layout_height="26dp"
+            android:elevation="5dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/white_circle"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/img_fav"
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ic_heart_gray"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

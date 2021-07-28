@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_white"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/new_itinerary"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="@font/metropolis_semibold"
+            android:textSize="@dimen/header_headinng"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/type_a_name_for_your_itinerary_here"
+            android:textColor="@color/colorApp"
+            android:fontFamily="@font/metropolis_semibold"
+            android:textSize="@dimen/home_title"
+            android:layout_gravity="center"
+            android:gravity="center"
+            />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/gray_notfill_rect"
+            android:layout_marginTop="20dp"
+            android:padding="10dp">
+            <EditText
+                android:id="@+id/edt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:textSize="@dimen/home_title"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="@font/metropolis_regular"
+                android:inputType="text"
+                android:imeOptions="actionDone"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_ok"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@drawable/shape_blue"
+            android:layout_gravity="center"
+            android:elevation="2dp"
+            android:gravity="center"
+            android:layout_marginBottom="5dp"
+            android:paddingTop="@dimen/dimen_10"
+            android:paddingBottom="@dimen/dimen_10"
+            android:paddingEnd="50dp"
+            android:paddingStart="50dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ok"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold"
+                android:textSize="@dimen/header_headinng"
+                android:fontFamily="@font/metropolis_semibold"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
